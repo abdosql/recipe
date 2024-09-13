@@ -1,0 +1,14 @@
+{
+    "recipes": {
+        "saqqal/llm-integration-bundle": [
+            "dev-devlop"
+        ]
+    },
+    "branch": "main",
+    "is_contrib": true,
+    "_links": {
+        "repository": "github.com/abdosql/recipes",
+        "origin_template": "{package}:{version}@github.com/abdosql/recipes:main",
+        "recipe_template": "https://raw.githubusercontent.com/abdosql/recipes/main/saqqal.llm-integration-bundle.dev-devlop.json"
+    }
+}
