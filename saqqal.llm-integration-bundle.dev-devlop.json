@@ -3,7 +3,7 @@
         "saqqal/llm-integration-bundle": {
             "manifest": {
                 "bundles": {
-                    "Saqqal\\LlmIntegrationBundle\\SaqqalLlmIntegrationBundle": ["all"]
+                    "Saqqal\\LlmIntegrationBundle\\LlmIntegrationBundle": ["all"]
                 }
             },
             "files": {
