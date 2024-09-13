@@ -4,18 +4,9 @@
             "manifest": {
                 "bundles": {
                     "Saqqal\\LlmIntegrationBundle\\LlmIntegrationBundle": ["all"]
-                }
-            },
-            "files": {
-                "config/packages/saqqal_llm_integration.yaml": {
-                    "contents": [
-                        "llm_integration:",
-                        "    provider: '%env(string:default:api_together:LLM_PROVIDER)%'",
-                        "    api_key: '%env(LLM_INTEGRATION_API_KEY)%'",
-                        "    model: '%env(default:meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo:LLM_MODEL)%'",
-                        ""
-                    ],
-                    "executable": false
+                },
+                "copy-from-package": {
+                    "config/packages/": "%CONFIG_DIR%/packages/"
                 }
             },
             "ref": "50c00886858a902e3e1bdf9de2c3fad9fc9bf3c2"
